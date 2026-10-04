@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Generated data
+data/generated/
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+data/quarantine/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff
+.ruff_cache/
+
+# Secrets
+*.pem
+*.key
+
+validation.py
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
+# dbt
+dbt_packages/
+target/
+logs/   
+# Spark / Hive / Derby local metastore
+metastore_db/
+derby.log
+
+# dbt local state
+dbt/**/.user.yml
+dbt/**/target/
+dbt/**/logs/
+dbt/**/dbt_packages/
+
+# dbt profiles - credentials/config local
+dbt/**/profiles.yml
